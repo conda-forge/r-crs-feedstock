@@ -1,4 +1,4 @@
-{% set version = "0.15-45" %}
+{% set version = "0.15-46" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/crs_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/crs/crs_{{ version }}.tar.gz
-  sha256: 22159548a4211cd658834983d2fe5ecc14155d746bc9c0904d8f96f26e69b1b7
+  sha256: d48558df8c74ed9426538ca9e70b3818dcd433958c2eb62f9196758f82c74469
 
 build:
   number: 0
